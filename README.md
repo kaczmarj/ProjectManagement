@@ -16,11 +16,11 @@ If you're new to the group, check out the [Onboarding repository](https://github
 
 ## License and code of conduct
 
-All content in this repository is [openly licensed with a CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), which means you're free to use the materials and remix them so long as you ***credit the source***. 
+All content in this repository is [openly licensed with a CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), which means you're free to use the materials and remix them so long as you ***credit the source***.
 
-For example: 
+For example:
 
-> This template is partially derived from "[Whitaker Lab Project Management](https://github.com/WhitakerLab/WhitakerLabProjectManagement)" by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0. 
+> This template is partially derived from "[Whitaker Lab Project Management](https://github.com/WhitakerLab/WhitakerLabProjectManagement)" by Dr. Kirstie Whitaker and the Whitaker Lab team, used under CC BY 4.0.
 
 More on CC BY 4.0 licensing can be found at [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
 

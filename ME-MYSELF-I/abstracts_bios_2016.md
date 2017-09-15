@@ -1,6 +1,8 @@
 # Abstracts and bios
 
-This is a file of all the talk abstracts and bios I write for events in [YEAR].
+None so far.
+
+<!-- This is a file of all the talk abstracts and bios I write for events in [YEAR].
 
 Hopefully I'll be able to re-use at least some of them ;)
 
@@ -20,4 +22,4 @@ They're ordered by date of presentation so ideally they're a little easier to fi
 
 **Bio**: Ermegerd I never wrote one. I am the worst.
 
-**Slides**: https://example.org/
+**Slides**: https://example.org/ -->
