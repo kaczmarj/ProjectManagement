@@ -1,7 +1,36 @@
 # Weekly Meetings
 
+* [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+
+### Date: 29th September 2017
+
+#### Who did you help this week?
+
+I helped [@sitek](https://github.com/sitek) create a Singularity container for DSI-Studio. (We are still trying to work out issues with libGL) [@mgxd](https://github.com/mgxd) and I helped Nick Hubbard shuffle the timeseries of each voxel in an fMRI recording. I also helped Nick run a Singularity container with the latest version of AFNI, and it looks like we discovered a bug in AFNI's version information.
+
+#### Who helped you this week?
+
+[StackOverflow user Divakar helped me](https://stackoverflow.com/a/46476164/5666087) improve the efficiency of code I wrote to shuffle the timeseries of each voxel in a 4-dimensional array. [@mgxd](https://github.com/mgxd) helped me incorporate that code into a nipype workflow. [@ross-mitchell](https://github.com/ross-mitchell) discovered and patched a bug in neurodocker's installation of AFNI.
+
+#### What did you achieve?
+
+* Created a local "webapp" for use in one of Kana's experiments.
+* Taught Nick about containers and how to use them on openmind.
+
+#### What did you struggle with?
+
+* Time management. I had an exam during the middle of my week, and studying consumed much of my time. I'm hoping to catch up this upcoming week.
+
+#### What would you like to work on next week?
+
+* Train/test NiftyNet on the BrainBox data (should take a few hours to set up, not sure how long to run).
+* Submit a work-in-progress PR to Nipype to update its CircleCI testing (should take an hour or less; most of the `config.yml` is written).
+* Tackle open Neurodocker issues and PRs.
+
 
 
 ### Date: 22nd September 2017
