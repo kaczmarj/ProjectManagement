@@ -1,8 +1,37 @@
 # Weekly Meetings
 
+* [6th October 2017](#date-6th-october-2017)
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+### Date: 6th October 2017
+
+#### Who did you help this week?
+
+I helped [danjgale](https://github.com/danjgale) use neurodocker to create a container for MR image analysis, and I helped openmind user brando90 work out his singularity and python issues.
+
+#### Who helped you this week?
+
+Dorota submitted a pull request to neurodocker (merged). [remram44](https://github.com/remram44) (creator of reprozip) discussed with me how to package reprozip in a standalone container and trace a process in a separate container (mindblowing).
+
+#### What did you achieve?
+
+* Inferred labels of gray/white matter + subcortical structures on brainbox data using a pre-trained niftynet model.
+* Made progress modifying reprozip to trace a process within a container without having to install reprozip inside that container.
+* Neurodocker improvements.
+
+#### What did you struggle with?
+
+* Writing C for reprozip.
+
+#### What would you like to work on next week?
+
+* Apply niftynet models to other data.
+* Try to generate brains with niftynet's variational autoencoder.
+* Work on minimizing a container without having to install reprozip in the container.
+* Finish up my nipype testing PR.
 
 
 
