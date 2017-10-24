@@ -1,9 +1,66 @@
 # Weekly Meetings
 
+* [20th October 2017](#date-20th-october-2017)
+* [10th October 2017](#date-10th-october-2017)
 * [6th October 2017](#date-6th-october-2017)
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+
+### Date: 20th October 2017
+
+#### Who did you help this week?
+
+I helped Nick with analysis of a voxel-wise correlation map of real data and of shuffled data. I also helped a new OpenMind user with general OpenMind use and with Matlab/SPM.
+
+#### Who helped you this week?
+
+[@Shotgunosine](https://github.com/Shotgunosine) submitted enhancements for the AFNI installation in Neurodocker (added option to install system python2 and/or python3, not part of miniconda environment). Satra also helped me by having me sit in on meetings regarding a potential project.
+
+#### What did you achieve?
+
+* Analyzed wireless EEG data from a pilot study.
+* Added `dcm2niix` support to Neurodocker (Neurodocker now listed on `dcm2niix`'s readme).
+
+#### What did you struggle with?
+
+* Finding the time to infer labels with NiftyNet.
+
+#### What would you like to work on next week?
+
+* I am at a conference for Sunday-Wednesday next week helping collect wireless EEG data.
+* Infer labels with NiftyNet.
+* Finish Nipype testing PR.
+
+
+
+### Date: 10th October 2017
+
+#### Who did you help this week?
+
+I helped one group within the Gab Lab with their shared OpenMind environment (multiple users `conda install`ing created symlinks in `/home` that resulted in permissions issues). We resolved the issue, and we plan to meet with Mario to hold a workshop to create a singularity container for the project. That would be a better, more permanent solution.
+
+#### Who helped you this week?
+
+The Medulina team helped me this week by explaining to me the goals of the project and where I fit in. Three fantastic participants (from the Gab Lab) helped Kana and me pilot a wireless EEG exeriment.
+
+#### What did you achieve?
+
+* Trained a highres3dnet neural net on part of the camcan data. Have not inferred labels yet.
+* Prepared analysis scripts for a wireless EEG experiment.
+* Networked with folks in the AI space and learned from them about semantic segmentation.
+
+#### What did you struggle with?
+
+* Inferring labels with the trained highres3dnet. I will have to read the niftinet documentation more carefully.
+
+#### What would you like to work on next week?
+
+* Infer labels with highres3dnet. Potentially train other models on the camcan data.
+* Add `dcm2niix` support to Neurodocker.
+
 
 
 ### Date: 6th October 2017
