@@ -1,11 +1,42 @@
 # Weekly Meetings
 
+* [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
 * [10th October 2017](#date-10th-october-2017)
 * [6th October 2017](#date-6th-october-2017)
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+
+### Date: 27th October 2017
+
+#### Who did you help this week?
+
+I helped Kana run an EEG experiment and analyze the data. I also helped Hannah with a PsychoPy script she wrote from scratch.
+
+#### Who helped you this week?
+
+Satra helped me prioritize my tasks and conceptualize the neurodocker paper.
+
+#### What did you achieve?
+
+- Kana and I collected EEG data from about 140 people, and we analyzed about half of it.
+- I have also started refactoring neurodocker to make it easier for users to contribute "recipes."
+- Made progress on the nipype testing pull request.
+
+#### What did you struggle with?
+
+- Checking whether commands being traced with reprozip failed. At the moment, `reprozip trace` will return code 0 even if a traced command fails. [ViDA-NYU/reprozip#281](https://github.com/ViDA-NYU/reprozip/pull/281) is in progress to fix this.
+
+#### What would you like to work on next week?
+
+- complete the nipype testing pull request
+- neurodocker refactor
+- outline the neurodocker paper
+- train a niftynet model on all of gablab's aparc+aseg data, and train that trained model on the mindboggle 101 dataset.
+- create a pure tensorflow/keras version of a niftynet model
 
 
 
