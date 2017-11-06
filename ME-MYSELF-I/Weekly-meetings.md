@@ -1,5 +1,6 @@
 # Weekly Meetings
 
+* [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
 * [10th October 2017](#date-10th-october-2017)
@@ -7,6 +8,31 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+### Date: 3rd November 2017
+
+#### Who did you help this week?
+
+I helped Dorota create a container for a Nipype tutorial. I also helped Hannah debug a PsychoPy script.
+
+#### Who helped you this week?
+
+Satra gave me advice on the Neurodocker refactor.
+
+#### What did you achieve?
+
+- Almost completed the Nipype testing pull request.
+- Made progress on Neurodocker refactor. Learned more about [packer](https://www.packer.io/) and how neurodocker might interface with it.
+
+#### What did you struggle with?
+
+- Nipype testing PR is taking longer than expected.
+
+#### What would you like to work on next week?
+
+- Neural networks: train niftynet model on gablab's aparc+aseg data. Test that trained model on the mindboggle 101 dataset.
+- Run regression tests on an FSL workflow. Create a dashboard of results.
 
 
 
@@ -35,7 +61,7 @@ Satra helped me prioritize my tasks and conceptualize the neurodocker paper.
 - complete the nipype testing pull request
 - neurodocker refactor
 - outline the neurodocker paper
-- train a niftynet model on all of gablab's aparc+aseg data, and train that trained model on the mindboggle 101 dataset.
+- train a niftynet model on all of gablab's aparc+aseg data, and test that trained model on the mindboggle 101 dataset.
 - create a pure tensorflow/keras version of a niftynet model
 
 
