@@ -1,5 +1,6 @@
 # Weekly Meetings
 
+* [10th November 2017](#date-10th-november-2017)
 * [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
@@ -8,6 +9,34 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+### Date: 10th November 2017
+
+#### Who did you help this week?
+
+I helped Dorota use Neurodocker and Docker.
+
+#### Who helped you this week?
+
+Dorota contributed examples to Neurodocker.
+
+#### What did you achieve?
+
+- Nobrainer: ready to train niftynet's highres3dnet on gablab's aparc+aseg.mgz volumes (I've created a text file with all of gablab's apac+aseg.mgz filepaths and have a niftynet config file ready).
+- Polished and optimized [nipype testing pull request](https://github.com/nipy/nipype/pull/2202).
+- Analyzed behavioral and eeg data for Kana.
+- Neurodocker bug fixes.
+
+#### What did you struggle with?
+
+- Nobrainer: using niftynet's pre-trained BRATS model to infer labels of the brainbox meningioma data.
+
+#### What would you like to work on next week?
+
+- Nobrainer: train highres3dnet on aparc+aseg.mgz volumes. infer labels on Mindboggle 101 data using highres3dnet model trained on gablab's aparc+aseg data. This will be my priority this week.
+- Neurodocker: work on paper outline, and run regression tests. Will write outline and manuscript in [this Google Doc](https://docs.google.com/document/d/1_gval2-mXmMd8YXdMX9I-eNThE9oONzQrMG2l-53SUY/edit?usp=sharing).
+
 
 
 ### Date: 3rd November 2017
