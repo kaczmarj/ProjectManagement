@@ -1,5 +1,7 @@
 # Weekly Meetings
 
+* [24th November 2017](#date-24th-november-2017)
+* [17th November 2017](#date-17th-november-2017)
 * [10th November 2017](#date-10th-november-2017)
 * [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
@@ -9,6 +11,58 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+
+### Date: 24th November 2017
+
+#### Who did you help this week?
+
+I helped Anila with OpenMind best practices and (with Kevin) showed her how to run multi-subject jobs in parallel.
+
+#### Who helped you this week?
+
+Satra helped me by explaining to me how I might train a model on aparc+aseg data and by telling me about [Chainer](https://chainer.org/).
+
+#### What did you achieve?
+
+- Began implementing `highres3dnet` in Keras.
+- Wrote data analysis scripts for Kana.
+
+#### What did you struggle with?
+
+- I struggled to write the Neurodocker paper. This will be my priority this upcoming week.
+
+#### What would you like to work on next week?
+
+- Work on Neurodocker paper and refactor.
+- Train `highres3dnet` on aparc+aseg data.
+
+
+
+### Date: 17th November 2017
+
+#### Who did you help this week?
+
+I helped Clemens convert his Docker image to Singularity (both with `docker2singularity` and `singularity build`). I also helped Dorota build a container for a C++ application.
+
+#### Who helped you this week?
+
+Mathias helped me by finding the bug that broke Nipype's CircleCI deploy step.
+
+#### What did you achieve?
+
+- Trained a nobrainer on the surface data on OpenMind. Please see my [GitHub issue](https://github.com/kaczmarj/ProjectManagement/issues/2#issuecomment-345474188) for more information.
+- Began exploring the aparc+aseg data to determine how to train a model on that data.
+
+#### What did you struggle with?
+
+- The Neurodocker paper.
+
+#### What would you like to work on next week?
+
+- Implement `highres3dnet` in Keras/TensorFlow.
+- Work on Neurodocker paper.
+
 
 
 ### Date: 10th November 2017
